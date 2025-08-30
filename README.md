@@ -14,9 +14,6 @@ Users sign in with Google, set a favorite movie, and fetch AI-generated fun fact
 
 🤖 AI fun facts for the selected movie
 
-🧭 Clean layout: Dashboard (top-left), Profile + Logout (top-right), Facts centered
-
-🧪 Simple /health endpoint for uptime checks
 
 Tech Stack
 
