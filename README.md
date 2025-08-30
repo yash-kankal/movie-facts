@@ -6,9 +6,6 @@ Movie Facts 🎬
 Personalized movie-facts dashboard built with React + TypeScript + Express + Prisma + Auth.js (Google OAuth).
 Users sign in with Google, set a favorite movie, and fetch AI-generated fun facts.
 
-<p align="center"> <img alt="Movie Facts" src="https://placehold.co/1200x420?text=Movie+Facts+Preview" /> </p>
-Features
-
 🔐 Google Login via Auth.js (JWT sessions)
 
 👤 Auto user sync on login (Prisma upsert)
