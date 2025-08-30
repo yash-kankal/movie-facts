@@ -1,4 +1,6 @@
-# Logs
+# ----------------------
+# Logs & Debug
+# ----------------------
 logs
 *.log
 npm-debug.log*
@@ -7,18 +9,55 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# ----------------------
+# Node Modules & Build
+# ----------------------
+node_modules/
+dist/
+dist-ssr/
+build/
+.cache/
+.temp/
 
-# Editor directories and files
+# ----------------------
+# Local Environment Files
+# ----------------------
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.production
+backend/.env.test
+
+.env
+.env.local
+
+# ----------------------
+# Prisma & DB
+# ----------------------
+backend/prisma/dev.db
+backend/prisma/test.db
+backend/prisma/migrations/
+
+# ----------------------
+# IDE / Editor Config
+# ----------------------
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+.DS_Store
+
+# ----------------------
+# Miscellaneous
+# ----------------------
+*.*
